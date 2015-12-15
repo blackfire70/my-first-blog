@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% extends 'blog/base.html' %}
 <html>
 <head>
     <title>Django Girls blog</title>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 </head>
 <body>
-    {% extends 'blog/base.html' %}
+  
 
 {% block content %}
     {% for post in posts %}
