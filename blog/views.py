@@ -1,5 +1,6 @@
 ﻿from django.shortcuts import render
 from .models import Post
+import time
 
 # Create your views here.
 def post_list(request):
